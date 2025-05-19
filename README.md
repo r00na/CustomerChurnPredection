@@ -1,62 +1,49 @@
-Customer Churn Analysis
+# 📉 Customer Churn Analysis
 
-Overview
+## 🧾 Overview
 
-This project analyzes customer churn using machine learning techniques. The dataset used is Telco Customer Churn, which contains customer details and their churn status. The goal is to build a model that predicts whether a customer is likely to churn.
+This project analyzes customer churn using machine learning techniques.
+The dataset used is the **Telco Customer Churn** dataset, which contains customer details and their churn status.
+🎯 **Goal:** Build a model that predicts whether a customer is likely to churn.
 
-Dataset
+## 🧹 Features & Processing
 
-Source: Telco Customer Churn Dataset
+* 🔍 **Data Cleaning:**
 
-Features and Processing
+  * Handled missing values
+  * Converted categorical variables using Label Encoding
 
-Data Cleaning: Handling missing values, converting categorical variables using Label Encoding
+* 📏 **Feature Scaling:**
 
-Feature Scaling: Min-Max Scaling for numerical columns (tenure, MonthlyCharges, TotalCharges)
+  * Applied Min-Max Scaling to numerical columns:
 
-Handling Class Imbalance: Used SMOTE to balance the Churn class distribution
+    * `tenure`, `MonthlyCharges`, `TotalCharges`
 
-Exploratory Data Analysis (EDA)
+* ⚖️ **Handling Class Imbalance:**
 
-Distribution of Churn variable
+  * Used **SMOTE** to balance the `Churn` class distribution
 
-Boxplots to detect outliers
 
-Chi-square test to determine feature significance
+## 📊 Exploratory Data Analysis (EDA)
 
-Machine Learning Model
+* 📌 Distribution of Churn variable
+* 📦 Boxplots to detect outliers
+* 🧪 Chi-square test to determine feature significance
 
-Model Used: Random Forest Classifier
 
-Evaluation Metrics:
+## 🤖 Machine Learning Model
 
-Accuracy Score
+* **Model Used:**
 
-Classification Report (Precision, Recall, F1-Score)
+  * ✅ Random Forest Classifier
 
-Confusion Matrix
+* **Evaluation Metrics:**
 
-Train-Test Split: 80% training, 20% testing
+  * 📈 Accuracy Score
+  * 🧾 Classification Report (Precision, Recall, F1-Score)
+  * 🧮 Confusion Matrix
 
-Installation & Requirements
+* **Train-Test Split:**
 
-Prerequisites
-
-Ensure you have Python and the following libraries installed:
-
-pip install pandas numpy seaborn matplotlib scikit-learn imbalanced-learn
-
-Running the Project
-
-Clone the repository:
-
-git clone https://github.com/yourusername/customer-churn-analysis.git
-
-Navigate to the project directory:
-
-cd customer-churn-analysis
-
-Run the script:
-
-python customer_churn.py
-
+  * 80% training
+  * 20% testing
