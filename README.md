@@ -4,7 +4,8 @@
 
 This project analyzes customer churn using machine learning techniques.
 The dataset used is the **Telco Customer Churn** dataset, which contains customer details and their churn status.
-🎯 **Goal:** Build a model that predicts whether a customer is likely to churn.
+
+- 🎯 **Goal:** Build a model that predicts whether a customer is likely to churn.
 
 ## 🧹 Features & Processing
 
